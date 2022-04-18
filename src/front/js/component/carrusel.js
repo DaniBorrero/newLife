@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Carousel } from 'react-bootstrap';
 
 
+
 export const Carrusel = () => (
 	<Carousel className="container">
 			<Carousel.Item>
@@ -17,22 +18,11 @@ export const Carrusel = () => (
 				</p>
 				</Carousel.Caption>
 			</Carousel.Item>
+			
 			<Carousel.Item>
 				<img
 				className="d-block w-100"
-				src="https://p4.wallpaperbetter.com/wallpaper/381/165/306/simple-background-black-background-minimalism-digital-art-wallpaper-preview.jpg"
-				alt="Second slide"
-				/>
-
-				<Carousel.Caption>
-				<h3>Lenguajes que conozco</h3>
-				<p>Agregar iconos de los lenguajes que conozco</p>
-				</Carousel.Caption>
-			</Carousel.Item>
-			<Carousel.Item>
-				<img
-				className="d-block w-100"
-				src="https://images8.alphacoders.com/115/thumb-1920-1156488.png"				alt="Third slide"
+				src="https://p4.wallpaperbetter.com/wallpaper/381/165/306/simple-background-black-background-minimalism-digital-art-wallpaper-preview.jpg"				alt="Third slide"
 				/>
 
 				<Carousel.Caption>
