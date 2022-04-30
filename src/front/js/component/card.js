@@ -4,7 +4,7 @@ import { Card, Button } from 'react-bootstrap';
 
 export const CardDev = ({tittle, img, text}) => (
     
-        <Card className="mx-3 border border-dark" style={{ width: '18rem' }}>
+        <Card className="m-3 border border-dark" style={{ width: '18rem' }}>
             <Card.Img className="my-2" variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{tittle}</Card.Title>
